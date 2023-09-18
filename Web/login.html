@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="logo">
+            <img src="../Image/logo.jpg" alt="Dincharya Logo">
+          </div>
+          <ul class="nav-links">
+            <li><a href="../dincharya.html">Home</a></li>
+            <li><a href="../Web/mind.html">Mind</a></li>
+            <li><a href="../Web/yoga.html">Yoga</a></li>
+            <li><a href="../Web/diet.html">Diet</a></li>
+            <li><a href="../Web/gallery.html">Gallery</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- <body style="background-image: C:\Users\AKANKSHA SINGH\Desktop\project\Image\background.jpeg ; background-attachment: fixed;  background-size: cover; background-position: bottom; font-family: sans-serif;"> -->
+        <div class="login">
+        <div class="vert" >
+            <br><br>
+            <table cellspacing="0" width="720px" style="height: 70vh; text-align: center; ">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            <h2 style="font-family:sans-serif; font-size: 42px; font-weight:200">Come Join Us!</h2>
+                        </td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr height="65px"> 
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%;">
+                            <img src="../Image/logo.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                        </td>
+                        <td style="width:50%; border: 1px solid #222; background-color: rgba(255,255,255,0.5);">
+                        
+                            <form  method="get">
+
+                                <label for="user" style="font-family: sans-serif;">User Name :</label>
+                                <input type="text" placeholder="Username" id="user" pattern="[a-zA-Z0-9]+" title="User Name Required 
+                                ! user name contain alphanumeric words" required style="outline: none; border:none;background: transparent; border-bottom: 2px solid #ff8800;" >
+
+                                <br><br>
+
+                                
+                                <label for="pass">Your Password:</label>
+                                <input type="password" id="pass" placeholder="Password" minlength="6" maxlength="20" pattern="[a-zA-Z0-9.@#$]+" 
+                                title="Password must alphanumric with special symbol like @,#,$,." required style="outline: none; border:none;background: transparent; border-bottom: 2px solid #ff8800;">
+                                <br><br>
+
+                                <input type="submit" value="Login"> 
+                                &nbsp;&nbsp;
+                                <input type="reset" value="Reset">
+
+                                
+                                
+                                <br>
+                                <p>Forget password ? click here <a href="#">Recovery user </a></p>
+                              <br>
+                                <p>New User account ? <br><br>
+                                  <a href="#" class="click">Click here</a>
+                                <a href="#">Signup </a></p>
+
+
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+
+    </body>
+    
+<footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Liluah, West Bengal, India </li>
+          <li><i class="fas fa-phone"></i>+91-943-251-5027</li>
+          <li><i class="fas fa-envelope"></i> Dincharya.com</li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a>Facebook</li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a>Twitter</li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a>Instagram</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Dincharya. All rights reserved.</p>
+  </div>
+  </footer>
+    
+    </body>
+    </html>
